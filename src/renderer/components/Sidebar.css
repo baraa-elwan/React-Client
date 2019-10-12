@@ -1,0 +1,79 @@
+/* 
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #5f6164;
+  color: #fff;
+  transition: all 0.3s;
+} */
+nav{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.sidenav {
+
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top:40px;
+  /* padding-left: 5px; */
+  /* border-right: #343a40 solid 1px; */
+  height: 100%;
+  font-weight: 500;
+  /* margin-top : 30px; */
+}
+
+.sidenav .sidenav-link{
+	display: inline;
+}
+.sidenav> a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  /* color: #111; */
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  /* padding-bottom: .5rem; */
+  /* padding-top: .5rem; */
+  /* margin-right: 20px; */
+  /* border-bottom: #818181 solid 1px; */
+  color: #818181;
+  text-decoration: none;
+  /* border-right: #818181 solid 1px; */
+
+  border-top-right-radius: 3px
+}
+
+.icn{
+  margin-right:20px;
+  color: inherit;
+}
+
+
+.sidenav>a:hover , .sidenav>a:active{
+  color: #81818185;
+  text-decoration: none;
+  background-color:  #f8f8f894;
+  border-right: #343a40 solid 2px;
+
+
+}
+
+.sidenav>a.activeTab{
+  background-color:  #f8f8f894;
+  border-right: #343a40 solid 2px;
+
+}

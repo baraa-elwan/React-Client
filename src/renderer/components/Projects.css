@@ -1,0 +1,25 @@
+.projects-page{
+	/* padding: 50px; */
+}
+
+.projects{
+	margin-left: 40px;
+}
+
+
+.projectHeader{
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight:600;
+	color: #b8b8b8;
+	border-bottom: #b9b9b9 solid 1px;
+}
+.projectHeader > .btn-light{
+	background-color: #fff;
+	border: none;
+	color: #b8b8b8;
+	font-size: 20px;
+
+
+}

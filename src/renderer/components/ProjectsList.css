@@ -1,0 +1,35 @@
+.list {
+	height: 500px;
+	padding-top: 50px;
+	padding-left:10px;
+	display: block;
+	overflow-y: auto;
+
+}
+.list li {
+	width:80%;
+	/* border-right: #818181 solid 1px; */
+	border: #81818175 solid 1px;
+	margin-bottom:10px;
+	margin-right:50px;
+	font-size: 15px;
+	height: 50px;
+	/* float:left; */
+}
+
+.list .list-group-item{
+	border-radius: 10px;
+
+}
+
+
+.progress{
+	height: 0.1rem;
+	width: 50%;
+	margin-top: 15px;
+}
+
+.list-group-item.active{
+	background-color: #8181819f;
+	border-color: #8181819f;	
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  padding-right: 0px; 
+  padding-left: 0px; 
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.resource-table, .resource-view{
+  visibility: hidden;
+}

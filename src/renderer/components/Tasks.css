@@ -1,0 +1,21 @@
+.overflow-t{
+	height: 400px;
+	overflow-y: auto;
+}
+
+.list-t{
+	margin: 30px;
+	/* margin-top: 60px; */
+
+}
+.list-t .table{
+	width: 75%;
+	margin-top: 60px;
+
+}
+
+.status-bar{
+	border-left-color: red;
+	border-left-width: 5px;
+	border-left-style: solid;
+}

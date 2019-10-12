@@ -1,0 +1,97 @@
+{
+  "name": "g-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@lls/react-light-calendar": "^2.0.7",
+    "@o2xp/react-datatable": "^1.1.4",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "app-root-path": "^2.2.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "camo": "^0.12.3",
+    "d3": "^5.9.7",
+    "form-data": "^2.5.0",
+    "gantt-for-react": "^0.2.0",
+    "is-online": "^8.2.0",
+    "is-reachable": "^3.1.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nedb": "^1.8.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-awesome-modal": "^2.0.5",
+    "react-big-scheduler": "^0.2.7",
+    "react-datepicker": "^2.8.0",
+    "react-dnd": "^7.5.0",
+    "react-dnd-html5-backend": "^7.5.0",
+    "react-dom": "^16.8.6",
+    "react-files": "^2.4.8",
+    "react-keyed-file-browser": "^1.5.2",
+    "react-notifications": "^1.4.3",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-script": "^2.0.5",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "react-tabs": "^3.0.0",
+    "react-tabs-redux": "^4.0.0",
+    "react-tabulator": "^0.9.1",
+    "react-watcher": "0.0.1",
+    "reactabular": "^8.3.0",
+    "reactabular-table": "^8.14.0",
+    "redux": "^3.4.0",
+    "redux-devtools": "^3.5.0",
+    "redux-electron-store": "^0.6.5",
+    "redux-form": "^8.2.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "searchtabular": "^1.9.0",
+    "sequelize": "^5.10.1",
+    "thunk": "0.0.1",
+    "toasted-notes": "^2.1.6"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "0.0.11",
+    "@rescripts/rescript-env": "0.0.10",
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.5.3",
+    "wait-on": "^3.3.0"
+  },
+  "rescripts": [
+    "env"
+  ],
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./"
+}
